@@ -1,0 +1,25 @@
+*button{
+    height: 30px;
+    width: 100px;
+    border: 1px solid blue;
+    font: Arial darkblue;
+    cursor: pointer;
+}
+
+#Elternelement{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+
+#Elternelement > div:nth-child(1) {
+    background-color: red
+}
+
+#Elternelement > div:nth-child(2) {
+    background-color: blue
+}
+
+#Elternelement > div:nth-child(3) {
+    background-color: green
+}
